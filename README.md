@@ -39,6 +39,8 @@ To run the scripts plase place all the scripts and data required in the R workin
 
 The data associated with these scripts can be found at:
 
+https://datasync.ed.ac.uk/index.php/s/oyrtYQSCoARaxhR (pwd: IAC_CIBCB2019_SI_Data)
+
 References:
 
 [1] Jean-Baptiste Lugagne, Sebastián Sosa Carrillo, Melanie Kirch, Agnes Köhler, Gregory Batt & Pascal Hersen, 2017. Balancing a genetic toggle switch by real-time feedback control and periodic forcing. Nature Communications, 8 (1671), pp. 1-7.
