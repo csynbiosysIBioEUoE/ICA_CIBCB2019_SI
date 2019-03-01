@@ -8,11 +8,11 @@ https://cran.r-project.org/web/packages/rstan/index.html
 The data is organised in the following subfolders:
 
 -	--Inference
-  -	ODE_Model.stan, stan statistical model script used to perform Bayesian Inference of the experimental data from [1]. 
-  - MultiExtractExp.R, script designed to access the experimental data and experimental schemes from [1] to generate an appropriate list  of objects to be passed to the stan model to perform the inference. The csv files are generated using the script DataExtraction.m.
-  -	DataExtraction.m, script to extract the desired experimental data and experimental profiles from [1]. 
-  -	masterRun.R, script to perform inference through RStan using the designed model ODE_Model.stan and the list of data extracted from MultiExtractExp.R. The script allows to perform inference on single datasets in series or on the combined set. 
-  -	masterRunOptim.R, script designed as the masterRun.R script but including an initial optimisation process for the initialisation of the 4 MCMC chains used in the inference. 
+    -	ODE_Model.stan, stan statistical model script used to perform Bayesian Inference of the experimental data from [1]. 
+    - MultiExtractExp.R, script designed to access the experimental data and experimental schemes from [1] to generate an appropriate list  of objects to be passed to the stan model to perform the inference. The csv files are generated using the script DataExtraction.m.
+    -	DataExtraction.m, script to extract the desired experimental data and experimental profiles from [1]. 
+    -	masterRun.R, script to perform inference through RStan using the designed model ODE_Model.stan and the list of data extracted from MultiExtractExp.R. The script allows to perform inference on single datasets in series or on the combined set. 
+    -	masterRunOptim.R, script designed as the masterRun.R script but including an initial optimisation process for the initialisation of the 4 MCMC chains used in the inference. 
   
 -	--PriorDefinition
   - ExtractingInitialPriorsLugagneLog.mat, matlab script to compute the mean and standard deviation of our priors (10 lognormal and 4 normal distributions) based on the results of the fit obtained in [1].
