@@ -7,7 +7,7 @@ https://cran.r-project.org/web/packages/rstan/index.html
 
 The data is organised in the following subfolders:
 
--	--Inference
+-	**Inference
     -	ODE_Model.stan, stan statistical model script used to perform Bayesian Inference of the experimental data from [1]. 
     - MultiExtractExp.R, script designed to access the experimental data and experimental schemes from [1] to generate an appropriate list  of objects to be passed to the stan model to perform the inference. The csv files are generated using the script DataExtraction.m.
     -	DataExtraction.m, script to extract the desired experimental data and experimental profiles from [1]. 
